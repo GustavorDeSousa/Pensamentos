@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A15775D0215A032600AD871C /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15775CF215A032600AD871C /* QuotesViewController.swift */; };
+		A15775D2215A035000AD871C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15775D1215A035000AD871C /* SettingsViewController.swift */; };
+		A15775D6215A076800AD871C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15775D5215A076800AD871C /* Quote.swift */; };
+		A15775D9215A07C900AD871C /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15775D8215A07C900AD871C /* QuotesManager.swift */; };
+		A15775DB215A07F600AD871C /*  Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15775DA215A07F600AD871C /*  Configuration.swift */; };
+		A1A7CD282160CC7F00590A34 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1A7CD272160CC7F00590A34 /* Settings.bundle */; };
 		A1CBB5C22158C198004E7859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CBB5C12158C198004E7859 /* AppDelegate.swift */; };
-		A1CBB5C42158C198004E7859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CBB5C32158C198004E7859 /* ViewController.swift */; };
 		A1CBB5C72158C198004E7859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CBB5C52158C198004E7859 /* Main.storyboard */; };
 		A1CBB5C92158C19B004E7859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CBB5C82158C19B004E7859 /* Assets.xcassets */; };
 		A1CBB5CC2158C19B004E7859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CBB5CA2158C19B004E7859 /* LaunchScreen.storyboard */; };
+		A1CBB5D52158CB9C004E7859 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A1CBB5D32158CB9C004E7859 /* quotes.json */; };
+		A1CBB5D62158CB9C004E7859 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A1CBB5D42158CB9C004E7859 /* Savoye LET.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A15775CF215A032600AD871C /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		A15775D1215A035000AD871C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A15775D5215A076800AD871C /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		A15775D8215A07C900AD871C /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		A15775DA215A07F600AD871C /*  Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Configuration.swift"; sourceTree = "<group>"; };
+		A1A7CD272160CC7F00590A34 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		A1CBB5BE2158C198004E7859 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CBB5C12158C198004E7859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1CBB5C32158C198004E7859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1CBB5C62158C198004E7859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1CBB5C82158C19B004E7859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1CBB5CB2158C19B004E7859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1CBB5CD2158C19B004E7859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1CBB5D32158CB9C004E7859 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = quotes.json; path = Pensamentos/Files/quotes.json; sourceTree = SOURCE_ROOT; };
+		A1CBB5D42158CB9C004E7859 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Savoye LET.ttc"; path = "Pensamentos/Files/Savoye LET.ttc"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A15775D3215A038A00AD871C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A15775D1215A035000AD871C /* SettingsViewController.swift */,
+				A15775CF215A032600AD871C /* QuotesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A15775D4215A03AE00AD871C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1CBB5C52158C198004E7859 /* Main.storyboard */,
+				A1CBB5CA2158C19B004E7859 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A15775D7215A079D00AD871C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A15775D5215A076800AD871C /* Quote.swift */,
+				A15775D8215A07C900AD871C /* QuotesManager.swift */,
+				A15775DA215A07F600AD871C /*  Configuration.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A1CBB5B52158C198004E7859 = {
 			isa = PBXGroup;
 			children = (
@@ -55,13 +97,24 @@
 			isa = PBXGroup;
 			children = (
 				A1CBB5C12158C198004E7859 /* AppDelegate.swift */,
-				A1CBB5C32158C198004E7859 /* ViewController.swift */,
-				A1CBB5C52158C198004E7859 /* Main.storyboard */,
+				A1CBB5D72158CBA2004E7859 /* Files */,
+				A15775D3215A038A00AD871C /* Controllers */,
+				A15775D4215A03AE00AD871C /* Views */,
+				A15775D7215A079D00AD871C /* Models */,
 				A1CBB5C82158C19B004E7859 /* Assets.xcassets */,
-				A1CBB5CA2158C19B004E7859 /* LaunchScreen.storyboard */,
+				A1A7CD272160CC7F00590A34 /* Settings.bundle */,
 				A1CBB5CD2158C19B004E7859 /* Info.plist */,
 			);
 			path = Pensamentos;
+			sourceTree = "<group>";
+		};
+		A1CBB5D72158CBA2004E7859 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CBB5D32158CB9C004E7859 /* quotes.json */,
+				A1CBB5D42158CB9C004E7859 /* Savoye LET.ttc */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +175,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CBB5D52158CB9C004E7859 /* quotes.json in Resources */,
 				A1CBB5CC2158C19B004E7859 /* LaunchScreen.storyboard in Resources */,
 				A1CBB5C92158C19B004E7859 /* Assets.xcassets in Resources */,
+				A1CBB5D62158CB9C004E7859 /* Savoye LET.ttc in Resources */,
+				A1A7CD282160CC7F00590A34 /* Settings.bundle in Resources */,
 				A1CBB5C72158C198004E7859 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1CBB5C42158C198004E7859 /* ViewController.swift in Sources */,
+				A15775D9215A07C900AD871C /* QuotesManager.swift in Sources */,
+				A15775D6215A076800AD871C /* Quote.swift in Sources */,
+				A15775D0215A032600AD871C /* QuotesViewController.swift in Sources */,
+				A15775DB215A07F600AD871C /*  Configuration.swift in Sources */,
 				A1CBB5C22158C198004E7859 /* AppDelegate.swift in Sources */,
+				A15775D2215A035000AD871C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gustavordesousa.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gustavordesousa.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
